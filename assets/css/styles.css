@@ -10,6 +10,7 @@ html {
 }
 body {
   background-color: #f1f1f1;
+  font-family: "Oswald", sans-serif;
 }
 .header-section {
   background-color: black;
@@ -83,11 +84,11 @@ body {
   /* margin-top: 20px; */
   display: flex;
   justify-content: space-between;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
   padding: 20px;
 }
 .main-section .left-side {
-  width: 64%;
+  width: 66%;
 }
 .main-section .left-side section {
   background-color: #ffffff;
@@ -203,7 +204,7 @@ body {
 
 .main-section .right-side {
   /* height: 500px; */
-  width: 33%;
+  width: 30%;
 }
 .main-section .right-side .author-section {
 }
@@ -223,4 +224,152 @@ body {
 }
 .main-section .right-side .author-section .author-desc h2 {
   margin-bottom: 10px;
+}
+.right-header {
+  margin-top: 30px;
+}
+.right-header .title-header {
+  background-color: #000;
+  color: #ffffff;
+  padding: 15px;
+}
+.right-header .title-header h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.right-header .post-lists {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.right-header .post-lists .single-post {
+  display: flex;
+  gap: 20px;
+  background-color: #ffffff;
+  /* border-bottom: 1px solid gray; */
+  padding: 10px;
+}
+.right-header .post-lists .single-post:hover {
+  background-color: gray;
+  opacity: 0.8;
+}
+.right-header .post-lists .single-post img {
+  height: 50px;
+  width: 50px;
+}
+.right-header .post-lists .single-post .post-text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.right-header .advertise {
+  padding: 15px;
+  background-color: #ffffff;
+}
+.right-header .advertise img {
+  padding: 10px;
+  background-color: #ffffff;
+  width: 100%;
+}
+.right-header .tags {
+  padding: 10px;
+  background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.right-header .tags span {
+  background-color: #f1f1f1;
+  padding: 3px 5px;
+  font-size: 12px;
+  font-weight: 200;
+}
+.right-header .tags span:first-child {
+  background-color: #000;
+  color: #ffffff;
+}
+.right-header .inspiration {
+  padding: 15px;
+  background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.right-header .inspiration img {
+  width: 48%;
+  height: 130px;
+}
+.right-header .follow-me {
+  background-color: #ffffff;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.right-header .follow-me a {
+  color: #000;
+}
+.right-header .follow-me a:hover {
+  background-color: #f1f1f1;
+}
+.right-header .subscribe {
+  background-color: #ffffff;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.right-header .subscribe p {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Open Sans";
+  margin-bottom: 5px;
+}
+.right-header .subscribe .subscribe-input {
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.right-header .subscribe .subscribe-input:focus {
+  outline: 1px solid rgb(97, 95, 95);
+}
+.right-header .subscribe .subscribe-btn {
+  padding: 10px;
+  background-color: orange;
+  border: none;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+}
+.right-header .subscribe .subscribe-btn:hover {
+  background-color: gray;
+  color: #000;
+  cursor: pointer;
+}
+.footer-section {
+  height: 150px;
+  background-color: gray;
+  color: #ffffff;
+  padding: 20px;
+}
+.footer-section .footer-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+.footer-section .footer-text a {
+  background-color: #000;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+.footer-section .footer-text a:hover {
+  background-color: #ccc;
+  color: #000;
 }
